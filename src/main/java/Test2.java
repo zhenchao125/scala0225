@@ -9,5 +9,7 @@ public class Test2 {
         Math.abs(-1);
         abs(-20);
         sqrt(10);
+
+
     }
 }
