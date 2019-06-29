@@ -5,11 +5,16 @@
 
 import static java.lang.Math.*;
 public class Test2 {
+
+    private Test2(){}
+
     public static void main(String[] args) {
         Math.abs(-1);
         abs(-20);
         sqrt(10);
 
-
+        new Test2();
     }
+
+
 }
