@@ -1,8 +1,16 @@
 package com.atguigu.day04.homework
 
+
 object Homework3 {
-    
+    def main(args: Array[String]): Unit = {
+        
+        val richInt: RichInt = 120
+        println(richInt +% 10)
+    }
 }
+
+
 /*
-2. 定义一个 ! 操作符, 计算某个整数的阶乘. 比如 5! 应该得到 120   // 5 !
+3. 定义一个操作符 +% , 可以将一个给定的百分百添加到某个值
+    比如 120 +% 10  应该得到 132
  */
