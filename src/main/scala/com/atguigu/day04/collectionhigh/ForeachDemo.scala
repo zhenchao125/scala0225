@@ -9,6 +9,7 @@ object ForeachDemo {
         list1.foreach(println) //  list1.foreach(println(x => x)
         list1.foreach(println(_)) //  部分应用函数
 //        list1.foreach(println(_ + 1)) // list1.foreach(println(x => x + 1))
-        
+    
+    
     }
 }
