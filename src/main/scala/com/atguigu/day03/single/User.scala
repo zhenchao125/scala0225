@@ -14,8 +14,6 @@ object User {
         println("apply  ")
         new User(age)
     }
-    
-    
 }
 
 
