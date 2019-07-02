@@ -30,5 +30,6 @@ object Praciice {
             map += c -> (map.getOrElse(c, 0L) + 1L)
         })
         println(map)
+        
     }
 }
