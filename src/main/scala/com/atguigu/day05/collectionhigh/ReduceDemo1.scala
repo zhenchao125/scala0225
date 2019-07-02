@@ -18,6 +18,8 @@ object ReduceDemo1 {
         
         val min: Int = list1.reduce((min, ele) => min.min(ele))
         println(min)
+        
+        //
     }
 }
 /*
