@@ -12,26 +12,13 @@ public class Test2 {
 
     public static void main(String[] args) {
 
-        Stack<Integer> stack = new Stack<>();
-        stack.push(10);
-        stack.push(20);
-        stack.push(30);
-        System.out.println(stack.peek());
-        stack.pop();
-        System.out.println(stack);
-
-
-        int a = 100;
-        new Object() {
-            @Override
-            public String toString() {
-
-                System.out.println(a);
-                return "test";
-            }
-        }.toString();
-//        a = 20;
+        System.out.println(sum(1, 100, 0));
     }
 
+
+    public static long sum(long from, long to, long acc) {
+        if (from == to) throw new RuntimeException();
+        else return sum(from + 1, to, from + acc);
+    }
 
 }
