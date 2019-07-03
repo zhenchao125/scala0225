@@ -6,7 +6,15 @@ package com.atguigu.day06.homework
   */
 object Homework2 {
     def main(args: Array[String]): Unit = {
-        
+        println(myMkString(Array(1, 2, 3, 4), "????"))
+    }
+    
+    def myMkString(arr: Array[Int], seperator: String): String ={
+//        arr.foldLeft("")((last, ele) => last + seperator + ele).substring(seperator.length)
+        arr.foldLeft("")((last, ele) => {
+//            val temp = if(last.length == 0) "" else seperator
+            last + (if(last.length == 0) "" else seperator) + ele
+        })
     }
 }
 /*
