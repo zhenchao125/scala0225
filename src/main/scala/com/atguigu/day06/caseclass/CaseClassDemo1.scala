@@ -16,7 +16,7 @@ object CaseClassDemo1 {
 }
 
 //trait Account
-abstract class Account
+sealed abstract class Account
 
 case class Dollar(money: Double) extends Account
 
